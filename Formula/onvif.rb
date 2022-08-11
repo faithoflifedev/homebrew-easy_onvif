@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class EasyOnvif < Formula
+class Onvif < Formula
 	desc "Command line ONVIF Client protocol Profile S (Live Streaming)."
 	homepage "https://github.com/faithoflifedev/easy_onvif"
 	url "https://github.com/faithoflifedev/easy_onvif/archive/refs/tags/v2.0.9.tar.gz"
