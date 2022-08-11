@@ -4,8 +4,8 @@
 class Onvif < Formula
 	desc "Command line ONVIF Client protocol Profile S (Live Streaming)."
 	homepage "https://github.com/faithoflifedev/easy_onvif"
-	url "https://github.com/faithoflifedev/easy_onvif/archive/refs/tags/v2.0.9.tar.gz"
-	sha256 "7221a9707232c9a58dada9c278ac0b5217df894c14845238c76ce7b0e3b2b38b"
+	url "https://github.com/faithoflifedev/easy_onvif/archive/refs/tags/v2.0.10.tar.gz"
+	sha256 "59fce2f48604adfdc19a70124f3fcf54a574aa89957358c3ef9819334ae76a8a"
 	license "MIT"
   
 #   bottle :unneeded
@@ -19,7 +19,7 @@ class Onvif < Formula
 	  end
   
 	  test do
-		assert_match "easy_onvif v2.0.9", shell_output("#{bin}/onvif version")
+		assert_match "easy_onvif v2.0.10", shell_output("#{bin}/onvif version")
 	  end
   end
   
