@@ -2,7 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-$onvif_version = 2.0.10
+$onvif_version = "2.0.10"
 
 class Onvif < Formula
 	desc "Command line ONVIF Client protocol Profile S (Live Streaming)."
