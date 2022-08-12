@@ -17,8 +17,6 @@ class Onvif < Formula
   
 	def install
 		system "dart", "pub", "get"
-		# system "dart", "pub", "cache", "add", "easy_onvif", "--version", "#$onvif_version"
-		system "dart", "pub", "global", "activate", "easy_onvif"
 		system "dart", "compile", "exe", "bin/onvif.dart", "-o", "onvif"
 		bin.install "onvif"
 	  end
