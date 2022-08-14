@@ -10,7 +10,7 @@ last_version=""
 
 # get the previous commit version
 if test -f ".last_version"; then
-	last_version=$(cat .version)
+	last_version=$(cat .last_version)
 fi
 
 # confirm this is a new commit
@@ -36,10 +36,10 @@ cat "${template}" \
 	| sed -e "s/__CHECKSUM__/${checksum}/" \
 > ${target}
 
+echo "${version}" > .last_version
+
 git add .
 
 git commit -m "${version}"
 
 git push
-
-echo "${version}" > .last_version
