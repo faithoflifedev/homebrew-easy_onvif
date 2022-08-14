@@ -26,7 +26,7 @@ target="Formula/$(ls Formula)"
 
 template=$(echo ${target} | sed -e 's/Formula/.tmpl/' | sed -e 's/\.rb/\.tmpl\.rb/')
 
-checksum=$(curl -s ${archive} | sha256sum | awk '{ print $1 }')
+checksum=$(wget -q ${archive} -O - | sha256sum | awk '{ print $1 }')
 
 rm -rf ${target}
 
