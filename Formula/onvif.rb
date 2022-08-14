@@ -1,10 +1,10 @@
-$version = "2.0.12"
+$version = "2.0.13+1"
 
 class Onvif < Formula
 	desc "Command line ONVIF Client protocol Profile S (Live Streaming)."
 	homepage "https://github.com/faithoflifedev/easy_onvif"
-	url "https://github.com/faithoflifedev/easy_onvif/archive/refs/tags/v2.0.12.tar.gz"
-	sha256 "b7b09b35d33eea1b722c6ca93386defda4581e986fc43206b3f542a29387d52b"
+	url "https://github.com/faithoflifedev/easy_onvif/archive/refs/tags/v2.0.13+1.tar.gz"
+	sha256 "ac9557850e31083135855cbcd4e4ad586e7beaaa3eab0ba8025a2f159d4ac338"
 	license "MIT"
 
 	depends_on "dart-lang/dart/dart" => :build
