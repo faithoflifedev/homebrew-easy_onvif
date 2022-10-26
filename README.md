@@ -1,2 +1,2 @@
 # homebrew-easy_onvif
-A command line interface for controlling Onvif compliant devices
+ A tap for the easy_onvif v2.0.13+5 Dart package
